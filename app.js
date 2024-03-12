@@ -12,7 +12,7 @@ var cliente_routes = require('./routes/cliente');
 var prospeccion_routes = require('./routes/prospeccion');
 var curso_routes = require('./routes/curso');
 
-mongoose.connect('mongodb://26.70.214.150:27017/negocio', { useUnifiedTopology: true, useNewUrlParser: true }, (err, res) => {
+mongoose.connect('mongodb://127.0.0.1:27017/negocio', { useUnifiedTopology: true, useNewUrlParser: true }, (err, res) => {
     if (err) {
         console.log(err);
     } else {
